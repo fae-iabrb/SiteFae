@@ -10,7 +10,7 @@
 </head>
 <body>
 
-<?php include "assets/header.php"?>
+<?php include "./header/header.php"?>
   
 </body>
 </html>

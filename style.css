@@ -1,121 +1,122 @@
+* {
+  font-family: "Roboto", "Arial", sans-serif;
+}
 body {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 .top-header {
-    width: 100%;
-    height: 31px;
+  width: 100%;
+  height: 31px;
 }
 .top-header-inside {
-    width: 65%;
-    height: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    line-height: 32px;
-    display: flex;
+  width: 65%;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 32px;
+  display: flex;
 }
 .main-header {
-    width: 100%;
-    height: 130px;
-    background-image: linear-gradient(to left, #3bb7f7, #55c6c5 99%);
-    border-bottom: 2px solid #285274;
+  width: 100%;
+  height: 130px;
+  background-image: linear-gradient(to left, #3bb7f7, #55c6c5 99%);
+  border-bottom: 2px solid #285274;
 }
 .main-header-inside {
-    width: 65%;
-    height: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    display: flex;
+  width: 65%;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
 }
 .top-header-portals {
-    font-family: Arial;
-    font-size: 12px;
-    text-align: center;
-    color: #285274;
-    letter-spacing: 0.35px;
-    margin-left: 5px;
-    cursor: pointer;
+  font-size: 12px;
+  text-align: center;
+  color: #285274;
+  letter-spacing: 0.35px;
+  margin-left: 5px;
+  cursor: pointer;
 }
 .header-arrow {
-    position: relative;
-    top: 7px;
-    cursor: pointer;
+  position: relative;
+  top: 7px;
+  cursor: pointer;
 }
 .vertical-line {
-    border-left: 1px solid #285274;
-    height: 16px;
-    margin-left: 12px;
-    margin-right: 12px;
-    position: relative;
-    top: 7px;
+  border-left: 1px solid #285274;
+  height: 16px;
+  margin-left: 12px;
+  margin-right: 12px;
+  position: relative;
+  top: 7px;
 }
 
 .top-header-social-medias {
-    display: flex;
-    width: 55px;
-    justify-content: space-between;
-    padding-top: 3px;
+  display: flex;
+  width: 55px;
+  justify-content: space-between;
+  padding-top: 3px;
 }
 
 .top-header-phone-img {
-    position: relative;
-    top: 5px;
+  position: relative;
+  top: 5px;
 }
 
 .top-header-phone {
-    font-family: Arial;
-    font-size: 13px;
-    text-align: center;
-    color: #285274;
-    margin-left: 5px;
+  font-size: 13px;
+  text-align: center;
+  color: #285274;
+  margin-left: 5px;
 }
 
 .logo-barao {
-    float: left;
-    position: relative;
-    width: 150px;
-    height: 100%;
-    border: 1px solid;
+  float: left;
+  position: relative;
+  width: 150px;
+  height: 100%;
+  border: 1px solid;
 }
 
 .logo-fae {
-    float: right;
-    position: relative;
-    width: 150px;
-    height: 100%;
-    border: 1px solid;
+  float: right;
+  position: relative;
+  width: 150px;
+  height: 100%;
+  border: 1px solid;
 }
 
 .main-header-inside-middle {
-    display: flex;
-    flex-direction: column;
-    width: 60%;
-    height: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: space-between;
 }
 
 .top-menus {
-    width: 90%;
-    height: 40px;
-    border: 1px solid;
-    margin-left: auto;
-    margin-right: auto;
+  width: 90%;
+  height: 40px;
+  border: 1px solid;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .middle-search {
-    width: 90%;
-    height: 40px;
-    border: 1px solid;
-    margin-left: auto;
-    margin-right: auto;
+  width: 90%;
+  height: 40px;
+  border: 1px solid;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .bottom-menus {
-    width: 100%;
-    height: 40px;
-    border: 1px solid;
-    margin-left: auto;
-    margin-right: auto;
+  width: 100%;
+  height: 40px;
+  border: 1px solid;
+  margin-left: auto;
+  margin-right: auto;
 }
