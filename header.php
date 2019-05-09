@@ -1,6 +1,6 @@
         <header id="header">
             <div class="top-header">
-                <div class="top-header-inside">
+                <div class="top-header-inside container">
                    <img class="header-arrow" src="assets/images/icons/view-more-icon.svg" width="16px" height="16px"/>
                    <span class="top-header-portals">Portais Web</span>
                    <span class="vertical-line"></span>
@@ -14,7 +14,7 @@
                 </div>
             </div>
             <div class="main-header">
-                <div class="main-header-inside">
+                <div class="main-header-inside container">
                     <div class="logo-barao">
                     <img src="assets/images/logos/IABRB-logo.svg" alt="Instituto Anglicano Barão do Rio Branco">
                     </div>

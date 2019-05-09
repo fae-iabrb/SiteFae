@@ -23,12 +23,14 @@
     </div>
     
     <!-- Left and right controls -->
-    <a class="carousel-control-prev" href="#banner-carousel" data-slide="prev">
-      <span class="carousel-control-prev-icon"></span>
-    </a>
-    <a class="carousel-control-next" href="#banner-carousel" data-slide="next">
-      <span class="carousel-control-next-icon"></span>
-    </a>
+    <div class="container">      
+        <a class="carousel-control-prev" href="#banner-carousel" data-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#banner-carousel" data-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </a>           
+    </div>
 
   </div>
 
