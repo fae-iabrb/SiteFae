@@ -4,9 +4,9 @@
 
     <!-- Indicators -->
     <ul class="carousel-indicators">
-      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-      <li data-target="#myCarousel" data-slide-to="1"></li>
-      <li data-target="#myCarousel" data-slide-to="2"></li>
+      <li data-target="#banner-carousel" data-slide-to="0" class="active"></li>
+      <li data-target="#banner-carousel" data-slide-to="1"></li>
+      <li data-target="#banner-carousel" data-slide-to="2"></li>
     </ul>
     
     <!-- The slideshow -->
@@ -23,10 +23,10 @@
     </div>
     
     <!-- Left and right controls -->
-    <a class="carousel-control-prev" href="#myCarousel" data-slide="prev">
+    <a class="carousel-control-prev" href="#banner-carousel" data-slide="prev">
       <span class="carousel-control-prev-icon"></span>
     </a>
-    <a class="carousel-control-next" href="#myCarousel" data-slide="next">
+    <a class="carousel-control-next" href="#banner-carousel" data-slide="next">
       <span class="carousel-control-next-icon"></span>
     </a>
 
