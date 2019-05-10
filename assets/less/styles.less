@@ -5,6 +5,8 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  background-image: linear-gradient(to left, #3bb7f7, #55c6c5 99%);
+  //adicionar imagem de backgroud parallex
 }
 
 #header {
@@ -12,6 +14,7 @@ body {
     display: flex;
     width: 100%;
     height: 31px;
+    background-color: white;
   }
   .top-header-inside {
     display: flex;
@@ -140,30 +143,55 @@ body {
 #quick-menu {
   display: flex;
   justify-content: space-between;
+  position: relative;
+  top: -100px;
+  @media (max-width: 600px) {
+    flex-direction: column;
+  }
 
   .box {
     width: 200px;
     height: 200px;
-    background-color: gray;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    @media (max-width: 600px) {
+      width: 100%;
+    }
+    img {
+      margin: 15px;
+      max-height: 130px;
+    }
+
+    .title {
+      width: 100%;
+      height: 42px;
+      background-color: white;
+      text-align: center;
+    }
   }
 
-  .box.one {
+  .one {
     background-color: #a1eb81;
   }
 
-  .box.two {
+  .two {
     background-color: #46b1e3;
   }
 
-  .box.three {
+  .three {
     background-color: #86f7cb;
   }
 
-  .box.four {
+  .four {
     background-color: #fed959;
   }
 
-  .box.five {
+  .five {
     background-color: #f9a963;
   }
+}
+
+#highlights {
+  height: 501px;
 }

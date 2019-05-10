@@ -25,6 +25,7 @@
 <?php include "header.php"?>
 <?php include "banner-slider.php"?>
 <?php include "quick-menu.php"?>
+<?php include "highlights.php"?>
 
   
 </body>
