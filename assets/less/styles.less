@@ -22,7 +22,6 @@ body {
   }
   .main-header {
     width: 100%;
-    height: 130px;
     background-image: linear-gradient(to left, #3bb7f7, #55c6c5 99%);
     border-bottom: 2px solid #285274;
   }
@@ -31,6 +30,12 @@ body {
     margin-left: auto;
     margin-right: auto;
     display: flex;
+    min-height: 147px;
+    align-items: flex-end;
+    @media (max-width: 600px) {
+      flex-direction: column;
+      align-items: center;
+    }
   }
   .top-header-portals {
     font-size: 12px;
@@ -67,13 +72,20 @@ body {
   }
 
   .logo-barao {
-    width: 150px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    max-width: 150px;
     height: 100%;
     text-align: center;
+    order: 1;
+    @media (max-width: 600px) {
+    }
   }
 
   .logo-barao p {
     color: #ffffff;
+
     text-transform: uppercase;
     font-size: 10px;
     letter-spacing: 0.4px;
@@ -82,10 +94,17 @@ body {
   }
 
   .logo-fae {
-    width: 150px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    max-width: 150px;
     height: 100%;
     text-align: center;
     padding-top: 23px;
+    order: 3;
+    @media (max-width: 600px) {
+      order: 2;
+    }
   }
 
   .logo-fae p {
@@ -96,8 +115,6 @@ body {
     line-height: 1.2;
     margin-top: 7px;
     font-weight: 600;
-    position: absolute;
-    margin-left: -20px;
   }
 
   .main-header-inside-middle {
@@ -108,11 +125,14 @@ body {
     margin-left: auto;
     margin-right: auto;
     justify-content: space-between;
+    order: 2;
+    @media (max-width: 600px) {
+      order: 3;
+    }
   }
 
   .top-menus {
     width: 90%;
-    height: 40px;
     margin-left: auto;
     margin-right: auto;
     text-transform: uppercase;
@@ -120,12 +140,12 @@ body {
     top: 15%;
   }
 
-  .top-menus a{
+  .top-menus a {
     color: #ffffff;
     text-decoration: none;
   }
 
-  .top-menus-content{
+  .top-menus-content {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -137,7 +157,7 @@ body {
     margin-left: 10px;
     margin-right: 12px;
   }
-  
+
   .each-bottom-menus {
     cursor: pointer;
   }
@@ -172,7 +192,8 @@ body {
   }
 
   .header-input-search {
-    width: 330px;
+    width: 100%;
+    max-width: 478px;
     height: 26px;
     border: none;
     outline: none;
@@ -216,6 +237,7 @@ body {
   top: -100px;
   @media (max-width: 600px) {
     flex-direction: column;
+    top: 0;
   }
 
   .box {
