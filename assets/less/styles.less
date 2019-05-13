@@ -69,13 +69,35 @@ body {
   .logo-barao {
     width: 150px;
     height: 100%;
-    border: 1px solid;
+    text-align: center;
+  }
+
+  .logo-barao p {
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 10px;
+    letter-spacing: 0.4px;
+    line-height: 1.2;
+    margin-top: 4px;
   }
 
   .logo-fae {
     width: 150px;
     height: 100%;
-    border: 1px solid;
+    text-align: center;
+    padding-top: 23px;
+  }
+
+  .logo-fae p {
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 10px;
+    letter-spacing: 0.5px;
+    line-height: 1.2;
+    margin-top: 7px;
+    font-weight: 600;
+    position: absolute;
+    margin-left: -20px;
   }
 
   .main-header-inside-middle {
@@ -91,9 +113,33 @@ body {
   .top-menus {
     width: 90%;
     height: 40px;
-    border: 1px solid;
     margin-left: auto;
     margin-right: auto;
+    text-transform: uppercase;
+    position: relative;
+    top: 15%;
+  }
+
+  .top-menus a{
+    color: #ffffff;
+    text-decoration: none;
+  }
+
+  .top-menus-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .vertical-line-top-menu {
+    border-left: 1px solid #ffffff;
+    height: 16px;
+    margin-left: 10px;
+    margin-right: 12px;
+  }
+  
+  .each-bottom-menus {
+    cursor: pointer;
   }
 
   #portals {
@@ -117,18 +163,41 @@ body {
 
   .middle-search {
     width: 90%;
-    height: 40px;
-    border: 1px solid;
+    height: 80px;
     margin-left: auto;
     margin-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .header-input-search {
+    width: 330px;
+    height: 26px;
+    border: none;
+    outline: none;
+    padding: 5px;
+    font-size: 14px;
+    letter-spacing: 0.3px;
+  }
+
+  .header-input-search-button {
+    background-color: #285274;
+    width: 50px;
+    height: 26px;
+    border: none;
+    outline: none;
   }
 
   .bottom-menus {
-    width: 100%;
+    width: 85%;
     height: 40px;
-    border: 1px solid;
     margin-left: auto;
     margin-right: auto;
+    display: flex;
+    justify-content: space-around;
+    color: #285274;
+    font-size: 15px;
   }
 }
 
