@@ -288,5 +288,64 @@ body {
 }
 
 #highlights {
-  height: 501px;
+  min-height: 501px;
+
+  .title {
+    font-size: 28.5px;
+    text-align: left;
+    text-transform: uppercase;
+    color: #ffffff;
+    margin-bottom: 32px;
+  }
+
+  .highlights-container {
+    display: flex;
+    justify-content: space-between;
+
+    .box {
+      display: flex;
+      flex-direction: column;
+      width: 30%;
+
+      .post-title {
+        bottom: 62px;
+        align-self: flex-end;
+        position: relative;
+        background-color: rgba(40, 82, 116, 0.9);
+        height: 62px;
+        padding: 5px 10px;
+
+        img {
+          object-fit: scale-down;
+        }
+
+        p {
+          font-size: 15px;
+          text-align: left;
+          color: #ffffff;
+        }
+      }
+    }
+  }
+
+  .showMore {
+    float: right;
+    width: 206px;
+    height: 37px;
+    border-radius: 15px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #285274;
+    border: none;
+    outline: 0;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+  }
+
+  .showMore:hover {
+    background-color: #285274;
+    color: #ffffff;
+  }
 }
