@@ -1,4 +1,4 @@
-<section id="banner-slider">
+<section class="banner-slider">
 
   <div id="banner-carousel" class="carousel slide" data-ride="carousel">
     

@@ -1,4 +1,4 @@
-<header id="header">
+<header class="header">
   <div class="top-header">
     <div class="top-header-inside container">
       <div class="portalsMenu">

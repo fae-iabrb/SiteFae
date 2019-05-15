@@ -1,4 +1,4 @@
-<section id="highlights" class="container">
+<section class="highlights container">
   <div class="title">Destaques</div>
   
   <div class="highlights-container">

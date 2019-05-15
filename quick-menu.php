@@ -1,5 +1,5 @@
 <div class="container">
-  <div id="quick-menu">
+  <div class="quick-menu">
     <div class="box one">
       <img src="assets/images/quick-menu/basic-education.svg" alt="Educação Basica">
       <div class="title">Educação Basica</div>
