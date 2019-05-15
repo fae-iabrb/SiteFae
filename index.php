@@ -28,6 +28,9 @@
 <?php include "banner-slider.php"?>
 <?php include "quick-menu.php"?>
 <?php include "highlights.php"?>
+<?php include "event-subscriber.php"?>
+<?php include "schedule.php"?>
+<?php include "footer.php"?>
 
   
 </body>

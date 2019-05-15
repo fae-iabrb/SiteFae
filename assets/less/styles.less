@@ -288,6 +288,7 @@ body {
 }
 
 .highlights {
+  padding-top: 50px;
   min-height: 501px;
 
   .title {
@@ -348,4 +349,56 @@ body {
     background-color: #285274;
     color: #ffffff;
   }
+}
+
+.event-subscriber {
+  background-color: white;
+  min-height: 360px;
+  padding-top: 50px;
+
+  .title {
+    font-size: 28.5px;
+    text-align: left;
+    text-transform: uppercase;
+    color: #285274;
+    margin-bottom: 32px;
+  }
+
+  .events-container {
+    display: flex;
+    justify-content: space-between;
+
+    .event-box {
+      min-height: 135px;
+      background-image: linear-gradient(45deg, #285274, #1b80a5);
+      padding: 32px 17px;
+      border-bottom: 10px solid #54c5c7;
+
+      .event-title {
+        font-size: 25px;
+        text-align: left;
+        color: #ffffff;
+      }
+      .event-info {
+        font-size: 17px;
+        text-align: left;
+        color: #ffffff;
+      }
+      .event-data {
+        font-size: 25px;
+        text-align: left;
+        color: #54c5c7;
+      }
+    }
+  }
+}
+
+.schedule {
+  min-height: 560px;
+  background-color: #285274;
+}
+
+.footer {
+  min-height: 583px;
+  background-image: linear-gradient(to left, #3bb7f7, #55c6c5 99%);
 }
