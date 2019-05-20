@@ -71,14 +71,44 @@
           <button type="submit" class="header-input-search-button"><img src="assets/images/icons/search-icon.svg" width="15px" height="15px"/></button>
         </div>
         <nav class="bottom-menus">
-          <div data-toggle="" data-target="#" class="each-bottom-menus">Ensino <img src="assets/images/icons/dropdown-icon.svg" width="9px" height="9px"/></div>
-          <div data-toggle="" data-target="#" class="each-bottom-menus">Eventos <img src="assets/images/icons/dropdown-icon.svg" width="9px" height="9px"/></div>
-          <div data-toggle="" data-target="#" class="each-bottom-menus">Pesquisa e Extensão <img src="assets/images/icons/dropdown-icon.svg" width="9px" height="9px"/></div>
-          <div data-toggle="" data-target="#" class="each-bottom-menus">Secretaria <img src="assets/images/icons/dropdown-icon.svg" width="9px" height="9px"/></div>
-          <div data-toggle="" data-target="#" class="each-bottom-menus">Biblioteca <img src="assets/images/icons/dropdown-icon.svg" width="9px" height="9px"/></div>
+          <ul>
+            <li><a href="#">Ensino <i class="fas fa-angle-down"></i></a>
+              <ul class="dropdown">
+                <li><a href="#">Educação Básica</a></li>
+                <li><a href="#">Educação Profissionalizante</a></li>
+                <li><a href="#">Centro de Idiomas</a></li>
+              </ul></li>
+            <li><a href="#">Eventos <i class="fas fa-angle-down"></i></a>
+              <ul class="dropdown">
+                <li><a href="#">Sub-1</a></li>
+                <li><a href="#">Sub-2</a></li>
+                <li><a href="#">Sub-3</a></li>
+              </ul>
+            </li>
+            <li><a href="#">Pesquisa e Extensão <i class="fas fa-angle-down"></i></a>
+              <ul class="dropdown">
+                <li><a href="#">Sub-1</a></li>
+                <li><a href="#">Sub-2</a></li>
+                <li><a href="#">Sub-3</a></li>
+              </ul>
+            </li>
+            <li><a href="#">Secretaria <i class="fas fa-angle-down"></i></i></a>
+              <ul class="dropdown">
+                <li><a href="#">Sub-1</a></li>
+                <li><a href="#">Sub-2</a></li>
+                <li><a href="#">Sub-3</a></li>
+              </ul>
+            </li>
+            <li><a href="#">Biblioteca <i class="fas fa-angle-down"></i></a>
+              <ul class="dropdown">
+                <li><a href="#">Sub-1</a></li>
+                <li><a href="#">Sub-2</a></li>
+                <li><a href="#">Sub-3</a></li>
+              </ul>
+            </li>
+          </ul>
         </nav>
       </div>
-
       <div class="logo-fae">
         <img
           src="assets/images/logos/FAE-logo.svg"
