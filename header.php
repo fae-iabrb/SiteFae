@@ -71,42 +71,13 @@
           <button type="submit" class="header-input-search-button"><img src="assets/images/icons/search-icon.svg" width="15px" height="15px"/></button>
         </div>
         <nav class="bottom-menus">
-          <ul>
-            <li><a href="#">Ensino <i class="fas fa-angle-down"></i></a>
-              <ul class="dropdown">
-                <li><a href="#">Educação Básica</a></li>
-                <li><a href="#">Educação Profissionalizante</a></li>
-                <li><a href="#">Centro de Idiomas</a></li>
-              </ul></li>
-            <li><a href="#">Eventos <i class="fas fa-angle-down"></i></a>
-              <ul class="dropdown">
-                <li><a href="#">Sub-1</a></li>
-                <li><a href="#">Sub-2</a></li>
-                <li><a href="#">Sub-3</a></li>
-              </ul>
-            </li>
-            <li><a href="#">Pesquisa e Extensão <i class="fas fa-angle-down"></i></a>
-              <ul class="dropdown">
-                <li><a href="#">Sub-1</a></li>
-                <li><a href="#">Sub-2</a></li>
-                <li><a href="#">Sub-3</a></li>
-              </ul>
-            </li>
-            <li><a href="#">Secretaria <i class="fas fa-angle-down"></i></i></a>
-              <ul class="dropdown">
-                <li><a href="#">Sub-1</a></li>
-                <li><a href="#">Sub-2</a></li>
-                <li><a href="#">Sub-3</a></li>
-              </ul>
-            </li>
-            <li><a href="#">Biblioteca <i class="fas fa-angle-down"></i></a>
-              <ul class="dropdown">
-                <li><a href="#">Sub-1</a></li>
-                <li><a href="#">Sub-2</a></li>
-                <li><a href="#">Sub-3</a></li>
-              </ul>
-            </li>
-          </ul>
+          
+            <div data-toggle="collapse" href="#submenu-1" >Ensino <i class="fas fa-angle-down"></i></div>             
+            <div data-toggle="collapse" href="#submenu-2" >Eventos <i class="fas fa-angle-down"></i></div>
+            <div data-toggle="collapse" href="#submenu-3" >Pesquisa e Extensão <i class="fas fa-angle-down"></i></div>
+            <div data-toggle="collapse" href="#submenu-4" >Secretaria <i class="fas fa-angle-down"></i></i></div>
+            <div data-toggle="collapse" href="#submenu-5" >Biblioteca <i class="fas fa-angle-down"></i></div>
+          
         </nav>
       </div>
       <div class="logo-fae">
@@ -115,6 +86,37 @@
           alt="Faculdade Anglicana de Erechim"
         />
         <p>Faculdade Anglicana de Erechim</p>
+      </div>
+    </div>
+  </div>
+  <div class="submenu">
+    <div class="container" id="bottom-menus">
+      <div id="submenu-1" class="collapse" data-parent="#bottom-menus">
+        <a href="#">Educação Básica</a>
+        <a href="#">Educação Profissionalizante</a>
+        <a href="#">Centro de Idiomas</a>
+        <a href="#">Centro de Idiomas</a>
+        <a href="#">Centro de Idiomas</a>
+      </div>
+      <div id="submenu-2" class="collapse" data-parent="#bottom-menus">
+        <a href="#">Sub-1</a>
+        <a href="#">Sub-2</a>
+        <a href="#">Sub-3</a>
+      </div>
+      <div id="submenu-3" class="collapse" data-parent="#bottom-menus">
+        <a href="#">Sub-1</a>
+        <a href="#">Sub-2</a>
+        <a href="#">Sub-3</a>
+      </div>
+      <div id="submenu-4" class="collapse" data-parent="#bottom-menus">
+        <a href="#">Sub-1</a>
+        <a href="#">Sub-2</a>
+        <a href="#">Sub-3</a>
+      </div>
+      <div id="submenu-5" class="collapse" data-parent="#bottom-menus">
+        <a href="#">Sub-1</a>
+        <a href="#">Sub-2</a>
+        <a href="#">Sub-3</a>
       </div>
     </div>
   </div>
