@@ -162,10 +162,6 @@ body {
     margin-right: 12px;
   }
 
-  .each-bottom-menus {
-    cursor: pointer;
-  }
-
   #portals {
     top: 31px;
     position: absolute;
@@ -187,7 +183,7 @@ body {
 
   .middle-search {
     width: 90%;
-    height: 80px;
+    height: 60px;
     margin-left: auto;
     margin-right: auto;
     display: flex;
@@ -215,14 +211,79 @@ body {
   }
 
   .bottom-menus {
-    width: 85%;
-    height: 40px;
     margin-left: auto;
     margin-right: auto;
     display: flex;
     justify-content: space-around;
     color: #285274;
     font-size: 15px;
+  }
+
+  .bottom-menus i {
+    position: relative;
+    top: 2px;
+  }
+
+  ul {
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+  }
+  
+  li {
+    display: block;
+    float: left;
+    padding: 1rem;
+    position: relative;
+    text-decoration: none;
+    transition-duration: 0.5s;
+  }
+    
+  li a {
+    color: #285274;
+  }
+
+  .dropdown li a {
+    color: #fff;
+  }
+  
+  li:hover,
+  li:focus-within {
+      cursor: pointer;
+  }
+  
+  li:focus-within a {
+    outline: none;
+  }
+  
+  ul li ul {
+    visibility: hidden;
+    opacity: 0;
+    min-width: 5rem;
+    position: absolute;
+    transition: all 0.5s ease;
+    margin-top: 1rem;
+    left: 5px;
+    display: none;
+    background: #285274;
+    color: #285274;
+    white-space: nowrap;
+  }
+  
+  ul li:hover > ul,
+  ul li:focus-within > ul,
+  ul li ul:hover,
+  ul li ul:focus {
+    visibility: visible;
+    opacity: 1;
+    display: block;
+    z-index: 1;
+    color: #285274;
+  }
+  
+  ul li ul li {
+    clear: both;
+    width: 100%;
   }
 }
 
